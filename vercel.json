@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "Щербина_index.html",
+      "src": "ndex.html",
       "use": "@vercel/static"
     }
   ],
@@ -20,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/Щербина_index.html"
+      "dest": "/index.html"
     }
   ]
 }
