@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Щербина_index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/static/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000, immutable"
+      },
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/Щербина_index.html"
+    }
+  ]
+}
