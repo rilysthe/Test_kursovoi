@@ -9,14 +9,7 @@
   "routes": [
     {
       "src": "/style/(.*)",
-      "headers": {
-        "Cache-Control": "no-cache"
-      },
       "dest": "/style/$1"
-    },
-    {
-      "src": "/img/(.*)",
-      "dest": "/img/$1"
     },
     {
       "src": "/(.*)",
