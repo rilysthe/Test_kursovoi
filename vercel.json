@@ -8,14 +8,15 @@
   ],
   "routes": [
     {
-      "src": "/static/(.*)",
-      "headers": {
-        "Cache-Control": "public, max-age=31536000, immutable"
-      },
-      "dest": "/static/$1"
+      "src": "/style/(.*)",    // Путь к CSS
+      "dest": "/style/$1"
     },
     {
-      "src": "/(.*)",
+      "src": "/img/(.*)",      // Путь к изображениям
+      "dest": "/img/$1"
+    },
+    {
+      "src": "/(.*)",          // Все остальные запросы → HTML
       "dest": "/Щербина_index.html"
     }
   ]
