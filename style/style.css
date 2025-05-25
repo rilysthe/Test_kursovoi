@@ -187,6 +187,7 @@
     min-height: 77px;
   }
   .text a{
+    color: #000;
     text-decoration: none;
   }
   .text a:visited{
@@ -308,6 +309,12 @@
     margin-left: 20px;
     margin-right: auto;
     width: 90%;
+  }
+  .section-article a{
+    color: #777;
+  }
+  .section-article a:visited{
+    color: #616161;
   }
 
   .section h2{
