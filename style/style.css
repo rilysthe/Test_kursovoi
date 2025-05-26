@@ -418,11 +418,13 @@
     order: 1;
     width: 100%;
     box-sizing: border-box;
-    border-top: 1vh solid #e4e4e4;
+    border-top: 5px solid #e4e4e4;
 
   }
   .primer {
-    border-radius: 1vh;
+    font-size: 24px;
+    border: none;
+    border-radius: 12px;
   }
   .primer::before,
   .primer::after {
@@ -435,7 +437,8 @@
   }
 
   .sidebar {
-    border-top: 1vh solid #e4e4e4;
+    box-sizing: border-box;
+    border-top: 12px solid #e4e4e4;
     order: 3;
     width: 100%;
   }
