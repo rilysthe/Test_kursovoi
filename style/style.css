@@ -391,6 +391,13 @@
   }
   .footer{
     text-align: center;
+    font-size: 24px;
+    background-size: cover;
+  }
+  .footer p{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
   }
   .header{
     grid-template-columns: auto 1fr;
@@ -438,10 +445,21 @@
   }
   .text{
     text-align: center;
+    font-size: 36px;
   }
   .sidebar_input{
     margin: 0 auto;
   }
+  .search-input{
+    min-height: 50px;
+    width: 90%;
+  }
+  .search-icon{
+    width: 50px;
+    height: 50px;
+  }
+
+ 
   .section {
     border-top: 1vh solid #e4e4e4;
     order: 2;
@@ -463,6 +481,7 @@
   .section-article {
     width: 90%;
     margin: 20px auto;
+    font-size: 36px;
   }
   .section-article h1{
     color: #424244;
@@ -470,6 +489,7 @@
 
   .post-date {
     margin-left: 0;
+    font-size: 40px;
   }
 }
 
@@ -486,6 +506,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .text {
+    font-size: 10em;
+  }
 }
 
 @media (max-width: 480px) {
@@ -501,6 +525,9 @@
   .sidebar_text {
     padding: 5px;
     width: 95%;
+  }
+  .text h3 a{
+    font-size: 72px;
   }
 
   .post-date {
