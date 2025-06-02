@@ -464,7 +464,7 @@
 
  
   .section {
-    border-top: 1vh solid #e4e4e4;
+    border-top: 6px solid #e4e4e4;
     order: 2;
     width: 100%;
   }
@@ -522,9 +522,12 @@
   }
 
   .header-name h1 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
-
+  
+  .header-sub p{
+    font-size: 0.6em;
+  }
   .sidebar_text {
     padding: 5px;
     width: 95%;
